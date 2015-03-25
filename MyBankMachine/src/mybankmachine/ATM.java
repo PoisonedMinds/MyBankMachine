@@ -23,7 +23,7 @@ public class ATM {
         balance = balance2;
         Double intRate;
         int numDays;
-        //output erlcome message
+        //output erlcome message 
         JOptionPane.showMessageDialog(null, "Hello and welcome to " + bank + " your curren"
                 + "t balance is: $" + df.format(balance));
         //different buttons
